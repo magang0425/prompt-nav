@@ -81,7 +81,7 @@ const TeamsList = () => {
 
   if (teams.length === 0) {
     // Optional: render a loading state or a message if teams haven't loaded
-    return <div>Loading teams...</div>;
+    return <div>Loading prompt...</div>;
   }
 
   return (
