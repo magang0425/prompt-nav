@@ -10,7 +10,7 @@ const TeamsList = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('https://ghfast.top/https://raw.githubusercontent.com/magang0425/prompt-convert/refs/heads/master/transformed_prompts.json');
+        const response = await fetch('https://gh-proxy.com/raw.githubusercontent.com/magang0425/prompt-convert/refs/heads/master/transformed_prompts.json');
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
