@@ -10,6 +10,11 @@ const Header = () => {
             </div>
         </div>
         <div className="flex items-center space-x-3">
+            <a target='_blank' href='https://www.pp.wen2tu.com'>
+                <button className="px-3 py-2 text-blue-600 flex items-center rounded-md">
+                    <span className="mr-1"></span> prompt 社区
+                </button>
+            </a>
             <a target='_blank' href='https://bp.upsui.com'>
                 <button className="px-3 py-2 text-blue-600 flex items-center rounded-md">
                     <span className="mr-1">👍</span> prompt 优化
