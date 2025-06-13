@@ -15,7 +15,7 @@ const Header = () => {
                     <span className="mr-1"></span> prompt 社区
                 </button>
             </a>
-            <a target='_blank' href='https://bp.upsui.com'>
+            <a target='_blank' href='https://promptpilot.volcengine.com/startup'>
                 <button className="px-3 py-2 text-blue-600 flex items-center rounded-md">
                     <span className="mr-1">👍</span> prompt 优化
                 </button>
